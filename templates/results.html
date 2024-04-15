@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Is SiTe DoWn?!</title>
+</head>
+<body>
+
+<h2>Is SiTe DoWn :(</h2>
+{% if status == 'UP'%}
+<p style="color: green">The site {{url}} is<strong> UP!!!</strong></p>
+{% else %}
+<p style="color: red">The site {{url}} is<strong> DOWN!!!</strong></p>
+{% endif %}
+</body>
+</html>
